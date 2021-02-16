@@ -16,14 +16,15 @@ body{
 }
 
 .footer {
-    position: fixed;
+    position :relative;
+    
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    height: 80px;
+    height: 100px;
 }
 .mid{
     position: relative;
@@ -32,15 +33,14 @@ body{
     height: 600px;
     top:100px;
     left: 0;
-    background-color: white;
-    margin-bottom: 0;
+        margin-bottom: 0;
     display: inline-block;
     
 }
 .myclass{
     position: relative;
     width: 100%;
-    background-color: rgb(216, 214, 214);
+    background-color: rgba(243, 242, 242, 0.938);
     height: 800px;
     margin-top: 0;
 }
