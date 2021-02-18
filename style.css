@@ -19,7 +19,7 @@ body{
 .nav h1 strong{
     color: salmon;
     animation-name: change;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 
 }
@@ -51,14 +51,18 @@ body{
     left: 0;
     margin-bottom: 0;
     display: inline-block;
+    background-color: rgba(145, 243, 197, 0.459);
     
 }
 .myclass{
     position: relative;
     width: 100%;
     background-color: rgba(79, 142, 236, 0.459);
-    height: 800px;
-    margin-top: 0;
+    height: 850px;
+    margin-top: 13vh;
+}
+body{
+    overflow-x: hidden;
 }
 
 .myimg{
@@ -67,21 +71,43 @@ body{
     height: 400px;
     margin-top:10px ;
     margin-left: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    margin-top: 50px;   
 }
 .myself{
     
-    width: 40%;
+    width: 50%;
     margin-left: 40%;
     border-radius: 50px;
     height: 500px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding-right: 5vw;
     
 }
+
 
 .myclass h2:hover{
     color: salmon;
 }
 
 @keyframes change{
-    from {color: salmon;}
-    to {color: seagreen;}
+    from {color: black;}
+    to {color: salmon;}
+}
+
+.myclass h2:hover{
+    transform: scale(1.5);
+}
+
+
+.myname:hover{
+    transform: scale(1.2);
+}
+.myhobby{
+    position: relative;
+    padding-left: 5vw;
+    float: right;
+    bottom: 50px;
+
 }
